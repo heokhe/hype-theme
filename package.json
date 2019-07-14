@@ -1,0 +1,22 @@
+{
+    "name": "hype",
+    "displayName": "Hype",
+    "description": "An exciting dark theme for VSCode",
+    "publisher": "hkh12",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hype",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Hype-color-theme.json"
+            }
+        ]
+    }
+}

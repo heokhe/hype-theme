@@ -1,0 +1,89 @@
+{
+	"name": "Hype",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#111118",
+		"editorHoverWidget.background": "#111118",
+		"sideBar.background": "#0d0d14",
+		"editorGroupHeader.tabsBackground": "#0d0d14",
+		"editorGroupHeader.noTabsBackground": "#111118",
+		"tab.inactiveBackground": "#0d0d14",
+		"tab.border": "#0000",
+		"tab.activeBackground": "#111118",
+		"tab.activeBorder": "#f38546",
+		"activityBar.background": "#0b0b12",
+		"titleBar.activeBackground": "#0b0b12",
+		"titleBar.inactiveBackground": "#0b0b12",
+		"titleBar.inactiveForeground": "#444",
+		"activityBarBadge.background": "#fc593d",
+		"statusBar.background": "#181825",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"editor.foreground": "#eff",
+		"editor.lineHighlightBackground": "#fff1",
+		"editor.lineHighlightBorder": "#0003"
+	},
+	"tokenColors": [
+		{
+			"scope": ["comment"],
+			"settings": {
+				"foreground": "#525263",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["keyword.control", "source.rust keyword.other", "entity.other.attribute-name", "variable.language.super"],
+			"settings": {
+				"foreground": "#f38546",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["storage.modifier", "storage.type", "entity.other.attribute-name.class.css", "keyword.other.unit"],
+			"settings": {
+				"foreground": "#f36147",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": ["entity.name.tag"],
+			"settings": {
+				"foreground": "#ca7bff"
+			}
+		},
+		{
+			"name": "strings",
+			"scope": ["string", "storage.modifier.lifetime"],
+			"settings": {
+				"foreground": "#c0f348"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": ["constant.numeric", "support.class.component"],
+			"settings": {
+				"foreground": "#ff6aa3"
+			}
+		},
+		{
+			"name": "params",
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#34fa90",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["meta.definition"],
+			"settings": {
+				"foreground": "#8fc3ff"
+			}
+		},
+		{
+			"scope": ["variable.language"],
+			"settings": {
+				"foreground": "#32a3ff",
+				"fontStyle": "italic"
+			}
+		}
+	]
+}
