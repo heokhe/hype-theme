@@ -4,6 +4,11 @@
     "description": "An exciting dark theme for VSCode",
     "publisher": "hkh12",
     "version": "0.0.1",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hkh12/hype-theme"
+    },
     "engines": {
         "vscode": "^1.36.0"
     },
