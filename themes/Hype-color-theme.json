@@ -20,7 +20,8 @@
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editor.foreground": "#eff",
 		"editor.lineHighlightBackground": "#fff1",
-		"editor.lineHighlightBorder": "#0003"
+		"editor.lineHighlightBorder": "#0003",
+		"editorLineNumber.foreground": "#fff4"
 	},
 	"tokenColors": [
 		{
@@ -31,7 +32,7 @@
 			}
 		},
 		{
-			"scope": ["keyword.control", "source.rust keyword.other", "entity.other.attribute-name", "variable.language.super"],
+			"scope": ["keyword.control", "source.rust keyword.other", "entity.other.attribute-name", "variable.language.super", "keyword.operator.new", "keyword.operator.expression"],
 			"settings": {
 				"foreground": "#f38546",
 				"fontStyle": "italic"
@@ -51,38 +52,56 @@
 			}
 		},
 		{
-			"name": "strings",
-			"scope": ["string", "storage.modifier.lifetime"],
+			"scope": ["string", "storage.modifier.lifetime", "entity.name.tag.wildcard", "support.constant.property-value.css"],
 			"settings": {
 				"foreground": "#c0f348"
 			}
 		},
 		{
-			"name": "Numbers",
 			"scope": ["constant.numeric", "support.class.component"],
 			"settings": {
-				"foreground": "#ff6aa3"
+				"foreground": "#ff5c9a"
 			}
 		},
 		{
 			"name": "params",
-			"scope": ["variable.parameter"],
+			"scope": ["variable.parameter", "entity.other.attribute-name.pseudo-class.css"],
 			"settings": {
 				"foreground": "#34fa90",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["meta.definition"],
+			"scope": ["meta.definition", "constant.character.entity"],
 			"settings": {
-				"foreground": "#8fc3ff"
+				"foreground": "#6eb2ff"
 			}
 		},
 		{
-			"scope": ["variable.language"],
+			"scope": ["variable.language", "entity.name.type.instance.jsdoc"],
 			"settings": {
 				"foreground": "#32a3ff",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["constant.language", "entity.name.type"],
+			"settings": {
+				"foreground": "#ff5765",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["keyword.operator.assignment", "keyword.operator.arithmetic", "punctuation.terminator", "punctuation.accessor", "keyword.operator", "punctuation.separator", "punctuation.definition.bracket.curly", "support.type.property-name.css"],
+			"settings": {
+				"foreground": "#a0c4ff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": ["meta.function-call entity.name.function", "entity.name.function.rust", "entity.other.inherited-class", "meta.definition.method"],
+			"settings": {
+				"foreground": "#ffc955"
 			}
 		}
 	]
